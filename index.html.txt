@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RDS FOOD – Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- ================================
+       HEADER / MENU
+  ================================ -->
+  <nav class="custom-nav">
+    <a href="https://www.rdsfood.com/" class="nav-logo">
+      <img src="https://www.rdsfood.com/wp-content/uploads/2021/07/Risorsa-5.png" alt="RDS FOOD Logo">
+    </a>
+    <ul class="nav-menu-inline">
+      <li><a href="https://www.rdsfood.com/" class="nav-link active">Home</a></li>
+      <li><a href="https://www.rdsfood.com/servizi/" class="nav-link">Servizi</a></li>
+      <li><a href="https://www.rdsfood.com/chi-siamo/" class="nav-link">Chi Siamo</a></li>
+      <li><a href="https://www.rdsfood.com/contatti/" class="nav-link">Contatti</a></li>
+      <li><a href="https://www.rdsfood.com/news/" class="nav-link">News</a></li>
+      <li class="social-link">
+        <a href="https://www.linkedin.com/company/rdsfood/" target="_blank">
+          <!-- SVG LinkedIn -->
+          <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.29c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75c.966 0 1.75.784 1.75 1.75s-.784 1.75-1.75 1.75zm13.5 10.29h-3v-4.5c0-1.074-.926-2-2-2s-2 .926-2 2v4.5h-3v-9h3v1.29c.618-1.134 2.154-1.29 3.004-1.29 2.102 0 4 1.898 4 4v5z"/></svg>
+        </a>
+      </li>
+    </ul>
+    <button class="nav-toggle" aria-label="Apri menu">
+      <span class="line long"></span>
+      <span class="line short"></span>
+    </button>
+    <ul class="nav-menu-overlay">
+      <li><a href="https://www.rdsfood.com/" class="nav-link active">Home</a></li>
+      <li><a href="https://www.rdsfood.com/servizi/" class="nav-link">Servizi</a></li>
+      <li><a href="https://www.rdsfood.com/chi-siamo/" class="nav-link">Chi Siamo</a></li>
+      <li><a href="https://www.rdsfood.com/contatti/" class="nav-link">Contatti</a></li>
+      <li><a href="https://www.rdsfood.com/news/" class="nav-link">News</a></li>
+      <li class="social-link">
+        <a href="https://www.linkedin.com/company/rdsfood/" target="_blank">
+          <!-- SVG LinkedIn -->
+          <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.29c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75c.966 0 1.75.784 1.75 1.75s-.784 1.75-1.75 1.75zm13.5 10.29h-3v-4.5c0-1.074-.926-2-2-2s-2 .926-2 2v4.5h-3v-9h3v1.29c.618-1.134 2.154-1.29 3.004-1.29 2.102 0 4 1.898 4 4v5z"/></svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- ================================
+       HERO SECTION
+  ================================ -->
+  <section class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <div class="hero-text">
+        <h1>Siamo il partner che ti porta a vendere<br>nella Grande Distribuzione</h1>
+        <p>Supportiamo aziende e brand del comparto food nel crescere sul mercato globale con strategie su misura, presenza costante e relazioni consolidate.</p>
+        <a href="https://www.rdsfood.com/contatti/" class="btn btn-primary">Contattaci Ora</a>
+      </div>
+      <div class="hero-image">
+        <img src="https://www.rdsfood.com/wp-content/uploads/2025/06/RDS-Food-Homepage.webp" alt="RDS Food Homepage" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================
+       CHI È RDS FOOD (slider compatto)
+  ================================ -->
+  <section class="chi-siamo-section">
+    <div class="container">
+      <h2>Chi è RDS FOOD</h2>
+      <p>RDS FOOD è un’agenzia specializzata nel settore alimentare. Operiamo da oltre 20 anni in Italia per valorizzare i prodotti dei nostri partner, favorendo l’accesso ai principali canali distributivi.</p>
+
+      <button class="chi-prev" aria-label="Precedente">
+        <svg viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+      </button>
+      <div class="valori-carousel">
+        <div class="valore-card">
+          <svg class="valore-icon" viewBox="0 0 24 24" fill="#3AAA35"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg>
+          <h3>Affidabilità</h3>
+          <p>Consolidiamo la fiducia tra brand e buyer grazie a processi trasparenti e risultati misurabili nel tempo.</p>
+        </div>
+        <div class="valore-card">
+          <svg class="valore-icon" viewBox="0 0 24 24" fill="#3AAA35"><path d="M20.5 3l-5 2-4-2-4 2-5-2v16l5 2 4-2 4 2 5-2V3zm-2 16l-4 1-4-1V5l4-1 4 1v14z"/></svg>
+          <h3>Copertura Territoriale</h3>
+          <p>Lavoriamo a livello internazionale per garantire presenza costante nei principali canali distributivi.</p>
+        </div>
+        <div class="valore-card">
+          <svg class="valore-icon" viewBox="0 0 24 24" fill="#3AAA35"><path d="M18 2H8c-1.1 0-2 .9-2 2v16l6-3 6 3V4c0-1.1-.9-2-2-2zm0 15l-4-2.18L10 17V4h8v13z"/></svg>
+          <h3>Know-how Alimentare</h3>
+          <p>Offriamo competenze specialistiche nel food category management e relazioni dirette con i buyer dei principali gruppi GDO.</p>
+        </div>
+        <div class="valore-card">
+          <svg class="valore-icon" viewBox="0 0 24 24" fill="#3AAA35"><path d="M3 3v18h18v-2H5V3H3zm16 8h-4v8h4v-8zM11 13H7v4h4v-4zM15 6h-4v11h4V6z"/></svg>
+          <h3>Risultati Concreti</h3>
+          <p>Raggiungiamo obiettivi di crescita misurabile, incrementando fatturato e visibilità dei prodotti dei nostri partner.</p>
+        </div>
+        <div class="valore-card">
+          <svg class="valore-icon" viewBox="0 0 24 24" fill="#3AAA35"><path d="M3 3h18v4H3V3zm0 6h18v12H3V9zm2 2v8h14v-8H5z"/></svg>
+          <h3>Soluzioni Personalizzate</h3>
+          <p>Progettiamo strategie su misura per ogni marchio, garantendo unicità e valore competitivo sul mercato.</p>
+        </div>
+      </div>
+      <button class="chi-next" aria-label="Successivo">
+        <svg viewBox="0 0 24 24"><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6z"/></svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- ================================
+     SEZIONE “I NOSTRI SERVIZI” APPLE-STYLE
+     ================================ -->
+<section class="services-apple">
+  <div class="container">
+    <h2>I nostri servizi</h2>
+
+    <!-- 1) Servizio 1 – full-width -->
+    <div class="service service-1">
+      <img src="https://www.rdsfood.com/wp-content/uploads/2025/06/Consulenza-e-Rappresentanza-Commerciale.webp"
+           alt="Soluzioni di Vendita" loading="lazy">
+      <div class="overlay white-text">
+        <h3>Soluzioni di Vendita</h3>
+        <a href="https://www.rdsfood.com/servizi/" class="btn-primary">Scopri di più</a>
+      </div>
+    </div>
+
+    <!-- 2) Riga 2: servizi 2 & 3 -->
+    <div class="row split-row">
+      <div class="service service-2">
+        <img src="https://www.rdsfood.com/wp-content/uploads/2025/06/B2B.webp"
+             alt="Consulenza Strategica B2B" loading="lazy">
+        <div class="overlay black-text">
+          <h3>Consulenza Strategica B2B</h3>
+          <a href="https://www.rdsfood.com/servizi/" class="btn-primary">Scopri di più</a>
+        </div>
+      </div>
+      <div class="service service-3">
+        <img src="https://www.rdsfood.com/wp-content/uploads/2025/06/Promozioni-e-In-Store-Marketing.webp"
+             alt="Promozioni e In Store Marketing" loading="lazy">
+        <div class="overlay black-text">
+          <h3>Promozioni e In Store Marketing</h3>
+          <a href="https://www.rdsfood.com/servizi/" class="btn-primary">Scopri di più</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3) Riga 3: servizi 4 & 5 -->
+    <div class="row split-row">
+      <div class="service service-4">
+        <img src="https://www.rdsfood.com/wp-content/uploads/2025/06/Distribuzione-scaled.webp"
+             alt="Supporto alla Distribuzione" loading="lazy">
+        <div class="overlay white-text">
+          <h3>Supporto alla Distribuzione</h3>
+          <a href="https://www.rdsfood.com/servizi/" class="btn-primary">Scopri di più</a>
+        </div>
+      </div>
+      <div class="service service-5">
+        <img src="https://www.rdsfood.com/wp-content/uploads/2025/06/Private-Label.webp"
+             alt="Private Label & Personalizzazione" loading="lazy">
+        <div class="overlay white-text">
+          <h3>Private Label &amp; Personalizzazione</h3>
+          <a href="https://www.rdsfood.com/servizi/" class="btn-primary">Scopri di più</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================================
+       SEZIONE VANTAGGI
+  ================================ -->
+  <section class="vantaggi-section">
+    <div class="container vantaggi-grid">
+      <div class="vantaggi-text">
+        <h2>Il partner commerciale ideale per la tua crescita</h2>
+        <ul class="benefici-list">
+          <li>Oltre 20 anni di esperienza nel settore food</li>
+          <li>Presenza capillare su tutto il territorio italiano</li>
+          <li>Relazioni dirette con i principali buyer</li>
+          <li>Soluzioni personalizzate per ogni marchio</li>
+          <li>Risultati concreti, misurabili e scalabili</li>
+        </ul>
+      </div>
+      <div class="vantaggi-image">
+        <!-- spazio per immagine futuro -->
+        <img src="https://www.rdsfood.com/wp-content/uploads/2025/06/Mondo-Verde-scaled.webp" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+<!-- ================================
+       SEZIONE TESTIMONIANZE
+  ================================ -->
+  <section class="testimonianze-section">
+    <div class="container">
+      <h2>Dicono di noi</h2>
+      <div class="testimonianze-grid">
+        <div class="testimonianza-item">
+          <blockquote>“Grazie a RDS FOOD siamo riusciti a entrare in catene dove prima non avevamo accesso.”</blockquote>
+          <p class="autore">– Marketing Manager, Azienda Dolciaria</p>
+        </div>
+        <div class="testimonianza-item">
+          <blockquote>“Competenti, presenti, organizzati. Ci rappresentano da anni con ottimi risultati.”</blockquote>
+          <p class="autore">– Direttore Vendite, Produttore Bio</p>
+        </div>
+        <!-- Duplica qui per altri commenti -->
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================
+       CTA FINALE
+  ================================ -->
+  <section class="cta-finale">
+    <div class="container">
+      <h2>Pronto a far crescere il tuo brand nel Food?</h2>
+      <p>Contattaci oggi per una consulenza gratuita e scopri come possiamo supportarti nella crescita commerciale.</p>
+      <a href="https://www.rdsfood.com/contatti/" class="btn btn-light">Richiedi Consulenza</a>
+    </div>
+  </section>
+
+  <!-- ================================
+       FOOTER
+  ================================ -->
+  <footer class="footer-section">
+    <div class="container footer-content">
+      <div class="footer-col">
+        <h3>RDS FOOD S.A.S.</h3>
+        <p>P.IVA 04549770263<br>Via Castellana 33<br>31011 Asolo (TV)<br><a href="mailto:ufficio@rdsfood.com">ufficio@rdsfood.com</a></p>
+      </div>
+      <div class="footer-col">
+        <h3>Scegli RDS FOOD se...</h3>
+        <p>Se cerchi un partner che ti accompagni nella crescita, siamo la scelta giusta.</p>
+        <div class="social-icons-footer">
+          <a href="https://www.linkedin.com/company/rdsfood/" target="_blank">
+            <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.29c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75c.966 0 1.75.784 1.75 1.75s-.784 1.75-1.75 1.75zm13.5 10.29h-3v-4.5c0-1.074-.926-2-2-2s-2 .926-2 2v4.5h-3v-9h3v1.29c.618-1.134 2.154-1.29 3.004-1.29 2.102 0 4 1.898 4 4v5z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h3>Link utili</h3>
+        <ul class="footer-links">
+          <li><a href="https://www.rdsfood.com/servizi/">Servizi</a></li>
+          <li><a href="https://www.rdsfood.com/contatti/">Contatti</a></li>
+          <li><a href="https://www.rdsfood.com/privacy-policy/">Privacy Policy</a></li>
+          <li><a href="https://www.rdsfood.com/cookie-policy/">Cookie Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">RDS Food 2025 © All rights reserved</div>
+  </footer>
