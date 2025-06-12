@@ -8,77 +8,43 @@
 </head>
 <body>
 <!-- ================================
-  HEADER / MENU PERSONALIZZATO
+       HEADER / MENU
   ================================ -->
-<nav class="custom-nav">
-  <div class="nav-container">
-    <!-- Logo -->
+  <nav class="custom-nav">
     <a href="index.html" class="nav-logo">
       <img src="https://www.rdsfood.com/wp-content/uploads/2021/07/Risorsa-5.png" alt="RDS FOOD Logo">
     </a>
-    
-    <!-- Menu Inline (visibile solo su Desktop) -->
     <ul class="nav-menu-inline">
-      <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-      <li class="nav-item"><a href="servizi.html" class="nav-link">Servizi</a></li>
-      <li class="nav-item"><a href="chi-siamo.html" class="nav-link active">Chi Siamo</a></li>
-      <li class="nav-item"><a href="contatti.html" class="nav-link">Contatti</a></li>
-      <li class="nav-item"><a href="news.html" class="nav-link">News</a></li>
-      <li class="nav-item social-link">
-        <a href="https://www.linkedin.com/company/rdsfood/" target="_blank" aria-label="LinkedIn">
-          <!-- Icona LinkedIn SVG -->
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="#FFF" 
-               xmlns="http://www.w3.org/2000/svg">
-            <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 
-                     2.76 2.24 5 5 5h14c2.76 
-                     0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 
-                     19h-3v-9h3v9zm-1.5-10.29c-.966 
-                     0-1.75-.784-1.75-1.75s.784-1.75 
-                     1.75-1.75c.966 0 1.75.784 1.75 
-                     1.75s-.784 1.75-1.75 1.75zm13.5 
-                     10.29h-3v-4.5c0-1.074-.926-2-2-2s-2 
-                     .926-2 2v4.5h-3v-9h3v1.29c.618-1.134 
-                     2.154-1.29 3.004-1.29 2.102 0 
-                     4 1.898 4 4v5z"/>
-          </svg>
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="servizi.html/" class="nav-link">Servizi</a></li>
+      <li><a href="chi-siamo.html/" class="nav-link active">Chi Siamo</a></li>
+      <li><a href="contatti.html/" class="nav-link">Contatti</a></li>
+      <li><a href="news.html/" class="nav-link">News</a></li>
+      <li class="social-link">
+        <a href="https://www.linkedin.com/company/rdsfood/" target="_blank">
+          <!-- SVG LinkedIn -->
+          <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.29c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75c.966 0 1.75.784 1.75 1.75s-.784 1.75-1.75 1.75zm13.5 10.29h-3v-4.5c0-1.074-.926-2-2-2s-2 .926-2 2v4.5h-3v-9h3v1.29c.618-1.134 2.154-1.29 3.004-1.29 2.102 0 4 1.898 4 4v5z"/></svg>
         </a>
       </li>
     </ul>
-
-    <!-- Icona Hamburger (Sempre visibile) -->
     <button class="nav-toggle" aria-label="Apri menu">
       <span class="line long"></span>
       <span class="line short"></span>
     </button>
-
-    <!-- Menu Overlay (visibile all’apertura hamburger) -->
     <ul class="nav-menu-overlay">
-      <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-      <li class="nav-item"><a href="servizi.html" class="nav-link">Servizi</a></li>
-      <li class="nav-item"><a href="chi-siamo.html" class="nav-link active">Chi Siamo</a></li>
-      <li class="nav-item"><a href="contatti.html" class="nav-link">Contatti</a></li>
-      <li class="nav-item"><a href="news.html" class="nav-link">News</a></li>
-      <li class="nav-item social-link">
-        <a href="https://www.linkedin.com/company/rdsfood/" target="_blank" aria-label="LinkedIn">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="#FFF" 
-               xmlns="http://www.w3.org/2000/svg">
-            <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 
-                     2.76 2.24 5 5 5h14c2.76 
-                     0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 
-                     19h-3v-9h3v9zm-1.5-10.29c-.966 
-                     0-1.75-.784-1.75-1.75s.784-1.75 
-                     1.75-1.75c.966 0 1.75.784 1.75 
-                     1.75s-.784 1.75-1.75 1.75zm13.5 
-                     10.29h-3v-4.5c0-1.074-.926-2-2-2s-2 
-                     .926-2 2v4.5h-3v-9h3v1.29c.618-1.134 
-                     2.154-1.29 3.004-1.29 2.102 0 
-                     4 1.898 4 4v5z"/>
-          </svg>
+      <li><a href="index.html" class="nav-link active">Home</a></li>
+      <li><a href="servizi.html" class="nav-link">Servizi</a></li>
+      <li><a href="chi-siamo.html/" class="nav-link">Chi Siamo</a></li>
+      <li><a href="contatti.html/" class="nav-link">Contatti</a></li>
+      <li><a href="news.html/" class="nav-link">News</a></li>
+      <li class="social-link">
+        <a href="https://www.linkedin.com/company/rdsfood/" target="_blank">
+          <!-- SVG LinkedIn -->
+          <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.29c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75c.966 0 1.75.784 1.75 1.75s-.784 1.75-1.75 1.75zm13.5 10.29h-3v-4.5c0-1.074-.926-2-2-2s-2 .926-2 2v4.5h-3v-9h3v1.29c.618-1.134 2.154-1.29 3.004-1.29 2.102 0 4 1.898 4 4v5z"/></svg>
         </a>
       </li>
     </ul>
-  </div>
-</nav>
+  </nav>
 <!-- ================================
   PAGINA “CHI SIAMO” – CONTENUTI
   ================================ -->
@@ -386,8 +352,8 @@
       <ul class="footer-links">
         <li><a href="servizi.html">Servizi</a></li>
         <li><a href="contatti.html">Contatti</a></li>
-        <li><a href="https://www.rdsfood.com/privacy-policy/">Privacy Policy</a></li>
-        <li><a href="https://www.rdsfood.com/cookie-policy/">Cookie Policy</a></li>
+        <li><a href="index.html"privacy-policy/">Privacy Policy</a></li>
+        <li><a href="index.html"cookie-policy/">Cookie Policy</a></li>
       </ul>
     </div>
   </div>
