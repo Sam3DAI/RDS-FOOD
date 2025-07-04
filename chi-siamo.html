@@ -8,43 +8,77 @@
 </head>
 <body>
 <!-- ================================
-       HEADER / MENU
+  HEADER / MENU PERSONALIZZATO
   ================================ -->
-  <nav class="custom-nav">
-    <a href="index.html" class="nav-logo">
+<nav class="custom-nav">
+  <div class="nav-container">
+    <!-- Logo -->
+    <a href="https://www.rdsfood.com/" class="nav-logo">
       <img src="https://www.rdsfood.com/wp-content/uploads/2021/07/Risorsa-5.png" alt="RDS FOOD Logo">
     </a>
+    
+    <!-- Menu Inline (visibile solo su Desktop) -->
     <ul class="nav-menu-inline">
-      <li><a href="index.html" class="nav-link">Home</a></li>
-      <li><a href="servizi.html/" class="nav-link">Servizi</a></li>
-      <li><a href="chi-siamo.html/" class="nav-link active">Chi Siamo</a></li>
-      <li><a href="contatti.html/" class="nav-link">Contatti</a></li>
-      <li><a href="news.html/" class="nav-link">News</a></li>
-      <li class="social-link">
-        <a href="https://www.linkedin.com/company/rdsfood/" target="_blank">
-          <!-- SVG LinkedIn -->
-          <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.29c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75c.966 0 1.75.784 1.75 1.75s-.784 1.75-1.75 1.75zm13.5 10.29h-3v-4.5c0-1.074-.926-2-2-2s-2 .926-2 2v4.5h-3v-9h3v1.29c.618-1.134 2.154-1.29 3.004-1.29 2.102 0 4 1.898 4 4v5z"/></svg>
+      <li class="nav-item"><a href="https://www.rdsfood.com/" class="nav-link">Home</a></li>
+      <li class="nav-item"><a href="https://www.rdsfood.com/servizi/" class="nav-link">Servizi</a></li>
+      <li class="nav-item"><a href="https://www.rdsfood.com/chi-siamo/" class="nav-link active">Chi Siamo</a></li>
+      <li class="nav-item"><a href="https://www.rdsfood.com/contatti/" class="nav-link">Contatti</a></li>
+      <li class="nav-item"><a href="https://www.rdsfood.com/news/" class="nav-link">News</a></li>
+      <li class="nav-item social-link">
+        <a href="https://www.linkedin.com/company/rdsfood/" target="_blank" aria-label="LinkedIn">
+          <!-- Icona LinkedIn SVG -->
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="#FFF" 
+               xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 
+                     2.76 2.24 5 5 5h14c2.76 
+                     0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 
+                     19h-3v-9h3v9zm-1.5-10.29c-.966 
+                     0-1.75-.784-1.75-1.75s.784-1.75 
+                     1.75-1.75c.966 0 1.75.784 1.75 
+                     1.75s-.784 1.75-1.75 1.75zm13.5 
+                     10.29h-3v-4.5c0-1.074-.926-2-2-2s-2 
+                     .926-2 2v4.5h-3v-9h3v1.29c.618-1.134 
+                     2.154-1.29 3.004-1.29 2.102 0 
+                     4 1.898 4 4v5z"/>
+          </svg>
         </a>
       </li>
     </ul>
+
+    <!-- Icona Hamburger (Sempre visibile) -->
     <button class="nav-toggle" aria-label="Apri menu">
       <span class="line long"></span>
       <span class="line short"></span>
     </button>
+
+    <!-- Menu Overlay (visibile all’apertura hamburger) -->
     <ul class="nav-menu-overlay">
-      <li><a href="index.html" class="nav-link active">Home</a></li>
-      <li><a href="servizi.html" class="nav-link">Servizi</a></li>
-      <li><a href="chi-siamo.html/" class="nav-link">Chi Siamo</a></li>
-      <li><a href="contatti.html/" class="nav-link">Contatti</a></li>
-      <li><a href="news.html/" class="nav-link">News</a></li>
-      <li class="social-link">
-        <a href="https://www.linkedin.com/company/rdsfood/" target="_blank">
-          <!-- SVG LinkedIn -->
-          <svg viewBox="0 0 24 24"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-9h3v9zm-1.5-10.29c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75c.966 0 1.75.784 1.75 1.75s-.784 1.75-1.75 1.75zm13.5 10.29h-3v-4.5c0-1.074-.926-2-2-2s-2 .926-2 2v4.5h-3v-9h3v1.29c.618-1.134 2.154-1.29 3.004-1.29 2.102 0 4 1.898 4 4v5z"/></svg>
+      <li class="nav-item"><a href="https://www.rdsfood.com/" class="nav-link">Home</a></li>
+      <li class="nav-item"><a href="https://www.rdsfood.com/servizi/" class="nav-link">Servizi</a></li>
+      <li class="nav-item"><a href="https://www.rdsfood.com/chi-siamo/" class="nav-link active">Chi Siamo</a></li>
+      <li class="nav-item"><a href="https://www.rdsfood.com/contatti/" class="nav-link">Contatti</a></li>
+      <li class="nav-item"><a href="https://www.rdsfood.com/news/" class="nav-link">News</a></li>
+      <li class="nav-item social-link">
+        <a href="https://www.linkedin.com/company/rdsfood/" target="_blank" aria-label="LinkedIn">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="#FFF" 
+               xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 
+                     2.76 2.24 5 5 5h14c2.76 
+                     0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 
+                     19h-3v-9h3v9zm-1.5-10.29c-.966 
+                     0-1.75-.784-1.75-1.75s.784-1.75 
+                     1.75-1.75c.966 0 1.75.784 1.75 
+                     1.75s-.784 1.75-1.75 1.75zm13.5 
+                     10.29h-3v-4.5c0-1.074-.926-2-2-2s-2 
+                     .926-2 2v4.5h-3v-9h3v1.29c.618-1.134 
+                     2.154-1.29 3.004-1.29 2.102 0 
+                     4 1.898 4 4v5z"/>
+          </svg>
         </a>
       </li>
     </ul>
-  </nav>
+  </div>
+</nav>
 <!-- ================================
   PAGINA “CHI SIAMO” – CONTENUTI
   ================================ -->
@@ -54,12 +88,12 @@
   <div class="container">
     <h1>Chi è <span>RDS FOOD</span></h1>
     <p>
-      Siamo un’agenzia di rappresentanza e consulenza commerciale specializzata nel 
+      Siamo un’azienda specializzata nel 
       settore alimentare, con oltre 20 anni di esperienza nel supportare brand italiani 
       e internazionali nella crescita e visibilità su GDO, DO e canali specializzati.
     </p>
     <div class="hero-cta-buttons">
-      <a href="contatti.html" class="btn btn-primary">
+      <a href="https://www.rdsfood.com/contatti/" class="btn btn-primary">
         📞 Contattaci Ora
       </a>
       <a href="#about-mission" class="btn btn-secondary">
@@ -86,48 +120,26 @@
           </p>
         </div>
       </div>
-      <!-- Fase 2010 -->
+      <!-- Fase 2005 -->
       <div class="timeline-item">
         <div class="timeline-dot"></div>
         <div class="timeline-content">
-          <h3>2010</h3>
+          <h3>2005</h3>
           <p>
-            Espansione del network in tutta la Regione Veneto e apertura di uffici 
-            commerciali in Lombardia e Piemonte, con team dedicati alla consulenza strategica.
+            Espansione del network in tutto il territorio Nazionale, siamo partner dei più importanti marchi nazionali ed esteri, con l'obiettivo di offrire tutta l'assistenza necessaria per la costruzione del marchio e promuovere i tuoi prodotti in tutto il mondo.
           </p>
         </div>
       </div>
-      <!-- Fase 2015 -->
+      <!-- Fase 2025 -->
       <div class="timeline-item">
         <div class="timeline-dot"></div>
         <div class="timeline-content">
-          <h3>2015</h3>
+          <h3>2025</h3>
           <p>
-            Partnership con fiere internazionali di settore (Anuga, Marca by Bologna 
-            Fiere) e avvio del servizio di <strong>Promozioni In Store</strong> su scala nazionale.
-          </p>
-        </div>
-      </div>
-      <!-- Fase 2020 -->
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <h3>2020</h3>
-          <p>
-            Introduzione del <strong>Supporto alla Distribuzione</strong> completo: gestione 
-            logistica, forecasting e monitoraggio stock per i nostri partner a livello europeo.
-          </p>
-        </div>
-      </div>
-      <!-- Fase 2024 -->
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <h3>2024</h3>
-          <p>
-            Oggi, RDS FOOD conta oltre 50 collaboratori e un network consolidato di buyer, 
+            Oggi, RDS FOOD conta oltre 50 collaboratori e un network consolidato di buyer, vanta Partnership con fiere internazionali di settore (Anuga, Marca by Bologna 
+            Fiere)
             distributori e fornitori di packaging in tutta Europa. Continuiamo a innovare 
-            per offrire un servizio chiavi in mano ai nostri clienti.
+            per offrire un servizio chiavi in mano ai nostri clienti..
           </p>
         </div>
       </div>
@@ -302,7 +314,7 @@
       Contattaci oggi stesso per discutere le tue esigenze nel settore alimentare. 
       Siamo pronti a offrirti soluzioni su misura per far crescere il tuo business.
     </p>
-    <a href="contatti.html" class="btn btn-primary">
+    <a href="https://www.rdsfood.com/contatti/" class="btn btn-primary">
       📧 Invia la tua Richiesta
     </a>
   </div>
@@ -350,10 +362,10 @@
     <div class="footer-col">
       <h3>Link utili</h3>
       <ul class="footer-links">
-        <li><a href="servizi.html">Servizi</a></li>
-        <li><a href="contatti.html">Contatti</a></li>
-        <li><a href="index.html"privacy-policy/">Privacy Policy</a></li>
-        <li><a href="index.html"cookie-policy/">Cookie Policy</a></li>
+        <li><a href="https://www.rdsfood.com/servizi/">Servizi</a></li>
+        <li><a href="https://www.rdsfood.com/contatti/">Contatti</a></li>
+        <li><a href="https://www.rdsfood.com/privacy-policy/">Privacy Policy</a></li>
+        <li><a href="https://www.rdsfood.com/cookie-policy/">Cookie Policy</a></li>
       </ul>
     </div>
   </div>
